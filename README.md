@@ -109,3 +109,36 @@ Incoming debt vs paid ratio
 Invoice payment history
 
 These variables provide strong signals for predicting borrower risk.
+
+
+## How to Run the Project
+
+Follow these steps to reproduce the analysis and model results.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rwatave/credit-risk-prediction-ml.git
+cd credit-risk-prediction-ml
+
+## 2. Install required libraries
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
+## 3. Open the notebook
+notebook/Credit_risk_model_Capstone_GL.ipynb
+
+## 4. Run the notebook
+
+Run all cells to reproduce:
+
+data preprocessing
+
+exploratory data analysis
+
+model training
+
+model evaluation
+
+
+
+
