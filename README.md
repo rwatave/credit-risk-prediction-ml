@@ -1,4 +1,4 @@
-Credit Risk Prediction using Machine Learning
+# Credit Risk Prediction using Machine Learning
 Overview
 
 This project develops machine learning models to predict credit default risk using customer financial behavior and repayment history.
@@ -7,7 +7,7 @@ The objective is to help financial institutions identify high-risk borrowers ear
 
 Using historical loan and repayment data, multiple machine learning models were trained and evaluated to identify the most accurate predictive approach.
 
-Dataset
+# Dataset
 
 The dataset contains financial behavior variables related to credit usage and repayment patterns, including:
 
@@ -26,7 +26,7 @@ Account balances and transaction activity
 Sample dataset included in this repository:
 
 PD_modelling_dataset.xlsx
-Project Workflow
+# Project Workflow
 
 The project follows a standard machine learning pipeline:
 
@@ -44,7 +44,7 @@ Feature Importance Analysis
 
 Machine Learning Models Used
 
-The following models were trained and compared:
+# The following models were trained and compared:
 
 Logistic Regression
 
@@ -58,7 +58,7 @@ AdaBoost
 
 Random Forest provided the best predictive performance.
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
 Default Distribution
 
 Correlation Heatmap
@@ -72,7 +72,7 @@ ROC Curve
 
 Feature Importance
 
-Model Evaluation Results
+# Model Evaluation Results
 
 Random Forest produced the best results.
 
@@ -90,7 +90,7 @@ True Positives: 29
 
 The model demonstrates strong ability to distinguish between default and non-default borrowers.
 
-Key Predictive Features
+# Key Predictive Features
 
 The most important features influencing credit default prediction were:
 
