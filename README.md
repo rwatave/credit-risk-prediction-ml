@@ -140,5 +140,14 @@ model training
 model evaluation
 
 
+## Project Structure
+
+credit-risk-prediction-ml
+│
+├── notebook
+├── images
+├── data
+├── report
+└── README.md
 
 
