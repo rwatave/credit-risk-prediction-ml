@@ -1,107 +1,109 @@
-# Credit Risk Prediction using Machine Learning
+Credit Risk Prediction using Machine Learning
+Overview
 
-## Overview
-This project builds machine learning models to predict **credit default risk** using financial behavior and repayment history data.
+This project develops machine learning models to predict credit default risk using customer financial behavior and repayment history.
 
-The goal is to help financial institutions identify high-risk borrowers and improve credit decision-making.
+The objective is to help financial institutions identify high-risk borrowers early, reduce credit losses, and improve credit approval decisions.
 
----
+Using historical loan and repayment data, multiple machine learning models were trained and evaluated to identify the most accurate predictive approach.
 
-## Dataset
-The dataset contains financial account behavior variables including:
+Dataset
 
-- repayment history
-- credit account status
-- debt recovery metrics
-- merchant category activity
-- payment span
-- account balances
+The dataset contains financial behavior variables related to credit usage and repayment patterns, including:
 
-Sample dataset included in:
+Repayment history
 
+Credit account status
 
----
+Debt recovery indicators
 
-## Project Workflow
+Merchant category activity
 
-1. Data Cleaning
-2. Feature Engineering
-3. Exploratory Data Analysis
-4. Machine Learning Modeling
-5. Model Evaluation
+Payment span behavior
 
-Models used:
+Account balances and transaction activity
 
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Gradient Boosting
-- AdaBoost
+Sample dataset included in this repository:
 
----
+PD_modelling_dataset.xlsx
+Project Workflow
 
-## Exploratory Data Analysis
+The project follows a standard machine learning pipeline:
 
-### Default Distribution
-![Default Distribution](images/eda_distribution.png)
+Data Cleaning and Preprocessing
 
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+Feature Engineering
 
----
+Exploratory Data Analysis (EDA)
 
-## Model Performance
+Model Training
 
-### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+Model Evaluation
 
-### ROC Curve
-![ROC Curve](images/roc_curve.png)
+Feature Importance Analysis
 
-### Feature Importance
-![Feature Importance](images/feature_importance.png)
+Machine Learning Models Used
 
----
+The following models were trained and compared:
 
-## Results
+Logistic Regression
 
-Best performing model: **Random Forest**
+Decision Tree
 
-Key predictive features:
+Random Forest
 
-- repayment_ratio
-- recovery_debt
-- worst_status_max
-- avg_payment_span
-- sum_paid_inv_0_12m
+Gradient Boosting
 
-The model achieved strong predictive performance with high ROC-AUC.
+AdaBoost
 
----
+Random Forest provided the best predictive performance.
 
-## Technologies Used
+Exploratory Data Analysis
+Default Distribution
 
-Python  
-Pandas  
-NumPy  
-Scikit-Learn  
-Matplotlib  
-Seaborn  
+Correlation Heatmap
 
----
+EDA helped identify relationships between repayment behavior and default risk.
 
-## Notebook
+Model Performance
+Confusion Matrix
 
-Full code available in:
+ROC Curve
 
+Feature Importance
 
----
+Model Evaluation Results
 
-## Business Impact
+Random Forest produced the best results.
 
-This model can help lenders:
+Performance metrics:
 
-- reduce credit losses
-- identify high-risk customers
-- improve loan approval decisions
-- optimize risk-based pricing
+ROC-AUC Score: 0.833
+
+True Negatives: 29,594
+
+False Positives: 14
+
+False Negatives: 357
+
+True Positives: 29
+
+The model demonstrates strong ability to distinguish between default and non-default borrowers.
+
+Key Predictive Features
+
+The most important features influencing credit default prediction were:
+
+Time since last financial activity
+
+Customer age
+
+Average payment span
+
+Merchant category behavior
+
+Incoming debt vs paid ratio
+
+Invoice payment history
+
+These variables provide strong signals for predicting borrower risk.
