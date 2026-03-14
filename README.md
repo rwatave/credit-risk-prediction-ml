@@ -163,3 +163,8 @@ credit-risk-prediction-ml
 ├── requirements.txt
 └── README.md
 
+
+Author
+
+Rohan Watave  
+MS in Data Analytics — Clark University
