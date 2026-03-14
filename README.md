@@ -25,7 +25,7 @@ Account balances and transaction activity
 
 Sample dataset included in this repository:
 
-PD_modelling_dataset.xlsx
+data/credit_risk_sample.csv
 # Project Workflow
 
 The project follows a standard machine learning pipeline:
