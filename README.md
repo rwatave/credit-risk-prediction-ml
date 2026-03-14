@@ -145,9 +145,21 @@ model evaluation
 credit-risk-prediction-ml
 │
 ├── notebook
+│   └── Credit_risk_model_Capstone_GL.ipynb
+│
 ├── images
+│   ├── eda_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── confusion_matrix.png
+│   ├── roc_curve.png
+│   └── feature_importance.png
+│
 ├── data
+│   └── credit_risk_sample.csv
+│
 ├── report
+│   └── Final_Business_Report.pdf
+│
+├── requirements.txt
 └── README.md
-
 
