@@ -104,21 +104,15 @@ The model demonstrates strong ability to distinguish between default and non-def
 
 # Key Predictive Features
 
-The most important features influencing credit default prediction were:
 
-Time since last financial activity
-
-Customer age
-
-Average payment span
-
-Merchant category behavior
-
-Incoming debt vs paid ratio
-
-Invoice payment history
-
-These variables provide strong signals for predicting borrower risk.
+| Feature | Description |
+|------|------|
+| Time since last financial activity | Measures recent financial engagement of the borrower |
+| Customer age | Indicates financial maturity and credit stability |
+| Average payment span | Average time taken to settle invoices |
+| Merchant category behavior | Spending patterns across merchant groups |
+| Incoming debt vs paid ratio | Balance between incoming liabilities and repayments |
+| Invoice payment history | Historical pattern of invoice payments |
 
 
 ## How to Run the Project
