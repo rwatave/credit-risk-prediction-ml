@@ -58,19 +58,30 @@ AdaBoost
 
 Random Forest provided the best predictive performance.
 
-# Exploratory Data Analysis
-Default Distribution
 
-Correlation Heatmap
 
+## Exploratory Data Analysis
+
+### Default Distribution
+![Default Distribution](eda_distribution.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
+
+---
+
+## Model Performance
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](roc_curve.png)
+
+### Feature Importance
+![Feature Importance](feature_importance.png)
 EDA helped identify relationships between repayment behavior and default risk.
 
-Model Performance
-Confusion Matrix
-
-ROC Curve
-
-Feature Importance
 
 # Model Evaluation Results
 
