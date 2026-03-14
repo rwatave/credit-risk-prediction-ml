@@ -62,24 +62,15 @@ Random Forest provided the best predictive performance.
 
 ## Exploratory Data Analysis
 
-### Default Distribution
-![Default Distribution](eda_distribution.png)
+![Default Distribution](images/eda_distribution.png)
 
-### Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
----
+![Confusion Matrix](images/confusion_matrix.png)
 
-## Model Performance
+![ROC Curve](images/roc_curve.png)
 
-### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
-
-### ROC Curve
-![ROC Curve](roc_curve.png)
-
-### Feature Importance
-![Feature Importance](feature_importance.png)
+![Feature Importance](images/feature_importance.png)
 EDA helped identify relationships between repayment behavior and default risk.
 
 
