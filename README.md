@@ -91,15 +91,14 @@ Random Forest produced the best results.
 
 Performance metrics:
 
-ROC-AUC Score: 0.833
+| Metric          | Value  |
+| --------------- | ------ |
+| ROC-AUC Score   | 0.833  |
+| True Negatives  | 29,594 |
+| False Positives | 14     |
+| False Negatives | 357    |
+| True Positives  | 29     |
 
-True Negatives: 29,594
-
-False Positives: 14
-
-False Negatives: 357
-
-True Positives: 29
 
 The model demonstrates strong ability to distinguish between default and non-default borrowers.
 
