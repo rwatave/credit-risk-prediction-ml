@@ -46,17 +46,17 @@ Machine Learning Models Used
 
 # The following models were trained and compared:
 
-Logistic Regression
+## Machine Learning Models Used
 
-Decision Tree
+| Model | Purpose |
+|------|------|
+| Logistic Regression | Baseline linear classification model |
+| Decision Tree | Tree-based model capturing non-linear relationships |
+| Random Forest | Ensemble tree model improving predictive performance |
+| Gradient Boosting | Boosting algorithm focusing on difficult cases |
+| AdaBoost | Adaptive boosting model for improving weak learners |
 
-Random Forest
-
-Gradient Boosting
-
-AdaBoost
-
-Random Forest provided the best predictive performance.
+Among these models, **Random Forest produced the best results**, achieving the highest ROC-AUC score and strongest classification performance.
 
 
 
