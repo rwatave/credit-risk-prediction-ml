@@ -1,48 +1,42 @@
 # Credit Risk Prediction using Machine Learning
-Overview
 
-This project develops machine learning models to predict credit default risk using customer financial behavior and repayment history.
+## Overview
 
-The objective is to help financial institutions identify high-risk borrowers early, reduce credit losses, and improve credit approval decisions.
+This project develops machine learning models to predict **credit default risk** using customer financial behavior and repayment history.
 
-Using historical loan and repayment data, multiple machine learning models were trained and evaluated to identify the most accurate predictive approach.
+The objective is to help financial institutions **identify high-risk borrowers early**, reduce credit losses, and improve credit approval decisions.
 
-# Dataset
+Using historical loan and repayment data, multiple machine learning models were trained and evaluated to determine the most accurate predictive approach for credit risk assessment.
 
-The dataset contains financial behavior variables related to credit usage and repayment patterns, including:
+## Dataset
 
-Repayment history
+The dataset used in this project contains financial behavior variables related to credit usage and repayment patterns.
 
-Credit account status
+Key variables include:
 
-Debt recovery indicators
+- **Repayment history**
+- **Credit account status**
+- **Debt recovery indicators**
+- **Merchant category activity**
+- **Payment span behavior**
+- **Account balances and transaction activity**
 
-Merchant category activity
-
-Payment span behavior
-
-Account balances and transaction activity
-
-Sample dataset included in this repository:
+A sample dataset used for this analysis is included in this repository:
 
 data/credit_risk_sample.csv
-# Project Workflow
 
-The project follows a standard machine learning pipeline:
+## Project Workflow
 
-Data Cleaning and Preprocessing
+The project follows a structured machine learning pipeline:
 
-Feature Engineering
-
-Exploratory Data Analysis (EDA)
-
-Model Training
-
-Model Evaluation
-
-Feature Importance Analysis
-
-Machine Learning Models Used
+| Step | Description |
+|-----|-------------|
+| Data Cleaning & Preprocessing | Handling missing values and preparing the dataset |
+| Feature Engineering | Creating additional predictive variables |
+| Exploratory Data Analysis (EDA) | Visualizing distributions and relationships in the data |
+| Model Training | Training multiple machine learning models |
+| Model Evaluation | Comparing model performance using ROC-AUC and confusion matrix |
+| Feature Importance Analysis | Identifying the most impactful variables |
 
 # The following models were trained and compared:
 
